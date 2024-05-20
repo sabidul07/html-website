@@ -1,0 +1,335 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Archivo", sans-serif;
+}
+.header {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  max-width: 100%;
+  background-color: #1c133f;
+}
+.navbar {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar a {
+  font-size: 32px;
+  text-decoration: none;
+  color: #fff;
+}
+.navbar i {
+  display: none;
+}
+.link {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.link a {
+  font-size: 16px;
+}
+.link button {
+  padding: 12px 20px;
+  background-color: #1c133f;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+.header h1 {
+  color: #efecfa;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 61px;
+  font-weight: 700;
+  line-height: 72px;
+}
+.header p {
+  text-align: center;
+  max-width: 807px;
+  font-size: 20px;
+  color: #efecfa;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 15px;
+}
+/* HEADER */
+.main {
+  max-width: 808px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+}
+.Painting h1 {
+  font-size: 25px;
+  list-style: 32px;
+  font-weight: 700;
+}
+.Painting select {
+  width: 100%;
+  max-width: 100%;
+  height: 53px;
+  padding-left: 15px;
+  border: 1px solid #6b677a;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+#hover:hover {
+  border: 1px solid #5e3ed1;
+}
+.thepainting h2 {
+  margin-top: 80px;
+  font-weight: 700;
+  font-size: 25px;
+}
+.thepainting select {
+  width: 100%;
+  max-width: 100%;
+  height: 53px;
+  padding-left: 15px;
+  border: 1px solid #6b677a;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+#hover2:hover {
+  border: 1px solid #5e3ed1;
+}
+.thepainting input {
+  width: 100%;
+  height: 53px;
+  border: 1px solid #6b677a;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+input:hover {
+  border: 1px solid #5e3ed1;
+}
+.decorating {
+  margin-top: 80px;
+}
+.decorating h3 {
+  font-weight: 700;
+  font-size: 25px;
+}
+.decorating select {
+  width: 100%;
+  max-width: 100%;
+  height: 53px;
+  border: 1px solid #6b677a;
+  border-radius: 4px;
+  margin-top: 20px;
+  padding-left: 15px;
+}
+#hover3:hover {
+  border: 1px solid #5e3ed1;
+}
+.decorating input {
+  width: 100%;
+  height: 53px;
+  border: 1px solid #6b677a;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+input:hover {
+  border: 1px solid #5e3ed1;
+}
+
+::placeholder {
+  font-size: 16px;
+  color: #090615;
+}
+
+.description {
+  margin-top: 80px;
+}
+.description input {
+  width: 100%;
+  border: 1px solid #6b677a;
+  border-radius: 4px;
+  margin-top: 20px;
+  padding-bottom: 150px;
+  padding-top: 20px;
+}
+input:hover {
+  border: 1px solid #5e3ed1;
+}
+.headline {
+  margin-top: 80px;
+}
+.headline {
+  margin-top: 80px;
+}
+.headline h4 {
+  font-weight: 700;
+  font-size: 25px;
+}
+.headline p {
+  font-size: 16px;
+  margin-top: 15px;
+  color: #6b677a;
+  font-weight: 400;
+  line-height: 24px;
+}
+.headline input {
+  width: 100%;
+  height: 53px;
+  border: 1px solid #6b677a;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+input:hover {
+  border: 1px solid #5e3ed1;
+}
+.blueprints {
+  margin-top: 80px;
+}
+.blueprints p {
+  font-size: 16px;
+  color: #6b677a;
+  font-weight: 400;
+  margin-top: 15px;
+}
+.blueprints input {
+  width: 100%;
+  height: 53px;
+  border: 1px solid #6b677a;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+input:hover {
+  border: 1px solid #5e3ed1;
+}
+.Postcode {
+  margin-top: 80px;
+}
+.Postcode p {
+  font-size: 16px;
+  color: #6b677a;
+  font-weight: 400;
+  margin-top: 15px;
+}
+.Postcode input {
+  width: 100%;
+  height: 53px;
+  border: 1px solid #6b677a;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+input:hover {
+  border: 1px solid #5e3ed1;
+}
+.tradespeople {
+  margin-top: 80px;
+}
+.tradespeople p {
+  font-size: 16px;
+  color: #6b677a;
+  font-weight: 400;
+  margin-top: 15px;
+}
+.tradespeople h6 {
+  font-size: 16px;
+  margin-top: 15px;
+  font-weight: 400;
+}
+.tradespeople input {
+  width: 100%;
+  height: 53px;
+  border: 1px solid #6b677a;
+  border-radius: 4px;
+  margin-top: 8px;
+}
+input:hover {
+  border: 1px solid #5e3ed1;
+}
+.account {
+  margin-top: 80px;
+}
+.account p {
+  font-size: 16px;
+  color: #6b677a;
+  font-weight: 400;
+  margin-top: 15px;
+}
+.account h6 {
+  font-size: 16px;
+  margin-top: 15px;
+  font-weight: 400;
+}
+.account input {
+  width: 100%;
+  height: 53px;
+  border: 1px solid #6b677a;
+  border-radius: 4px;
+  margin-top: 8px;
+}
+input:hover {
+  border: 1px solid #5e3ed1;
+}
+.click {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+.click span {
+  line-height: 24px;
+  max-width: 700px;
+  color: #6b677a;
+}
+.clicks {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #6b677a;
+}
+.account button {
+  margin-top: 50px;
+  padding: 15px 30px;
+  background-color: #5e3ed1;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+@media (max-width: 800px) {
+  .header {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .header h1 {
+    font-size: 39px;
+  }
+  .header i {
+    display: block;
+    font-size: 32px;
+    color: white;
+  }
+  .link {
+    display: none;
+  }
+  .main {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .click span {
+    max-width: 500px;
+  }
+  .account p {
+    margin-top: 20px;
+  }
+  .account button {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .click span {
+    max-width: 230px;
+  }
+}

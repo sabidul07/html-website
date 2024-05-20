@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Archivo", sans-serif;
+}
+.header {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  max-width: 100%;
+  background-color: #1c133f;
+}
+.navbar {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar a {
+  font-size: 32px;
+  text-decoration: none;
+  color: #fff;
+}
+.navbar i {
+  display: none;
+}
+.link {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.link a {
+  font-size: 16px;
+}
+.link button {
+  padding: 12px 20px;
+  background-color: #1c133f;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+.header h1 {
+  color: #efecfa;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 61px;
+  font-weight: 700;
+  line-height: 72px;
+}
+.header p {
+  text-align: center;
+  max-width: 807px;
+  font-size: 20px;
+  color: #efecfa;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 15px;
+}
+/* HEADER */
+/* SECTION  */
+
+.container {
+  max-width: 1224px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  margin-top: 80px;
+}
+.item {
+  display: flex;
+  align-items: center;
+  max-width: 288px;
+  background-color: #efecfa;
+  height: 78px;
+  padding-left: 20px;
+  border-left: 4px solid #af9fe8;
+}
+.item h3 {
+  font-size: 20px;
+  font-weight: 350;
+  color: #1c133f;
+  line-height: 30px;
+}
+.items {
+  display: flex;
+  align-items: center;
+  max-width: 288px;
+  background-color: #efecfa;
+  height: 78px;
+  padding-left: 20px;
+  border-left: 4px solid #5e3ed1;
+}
+.items h3 {
+  font-size: 20px;
+  font-weight: 350;
+  color: #5e3ed1;
+  line-height: 30px;
+}
+.Review-profile {
+  max-width: 1016px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+}
+.Review-profile h2 {
+  font-size: 49px;
+  font-weight: 700;
+}
+.Review-profile p {
+  font-size: 20px;
+  max-width: 630px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 30px;
+  color: #6b677a;
+  font-weight: 400;
+}
+.review {
+  max-width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.step1 {
+  max-width: 200px;
+}
+.rond {
+  width: 200px;
+  height: 200px;
+  background-color: #af9fe8;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.step1 h5 {
+  font-size: 16px;
+  color: #5e3ed1;
+  line-height: 24px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.step1 h4 {
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 8px;
+  font-weight: 400;
+}
+/* SECTION  */
+/* BTN */
+.link-btn {
+  margin-top: 100px;
+
+  padding-top: 40px;
+  padding-bottom: 40px;
+  max-width: 100%;
+  background-color: #1c133f;
+}
+.post-job {
+  max-width: 1011px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.post-job {
+  max-width: 1011px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.post-job p {
+  font-size: 32px;
+  color: white;
+  font-weight: 700;
+}
+.post-job button {
+  padding: 15px 20px;
+  background-color: #5e3ed1;
+  border: none;
+  color: white;
+  border-radius: 4px;
+}
+/* BTN */
+
+@media (max-width: 570px) {
+  .header {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .navbar i {
+    display: block;
+    font-size: 32px;
+    color: white;
+  }
+  .link {
+    display: none;
+  }
+  .header h1 {
+    font-size: 49px;
+  }
+  .header p {
+    max-width: 334px;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-columns: 20px;
+  }
+  .item {
+    width: 360px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .items {
+    width: 360px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .review {
+    flex-direction: column;
+  }
+  .step1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Review-profile h2 {
+    font-size: 39px;
+  }
+  .Review-profile p {
+    display: none;
+  }
+  .post-job {
+    flex-direction: column;
+    text-align: center;
+  }
+  .post-job button {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Archivo", sans-serif;
+}
+.header {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  max-width: 100%;
+  background-color: #1c133f;
+}
+.navbar {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar a {
+  font-size: 32px;
+  text-decoration: none;
+  color: #fff;
+}
+.navbar i {
+  display: none;
+}
+.link {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.link a {
+  font-size: 16px;
+}
+.link button {
+  padding: 12px 20px;
+  background-color: #1c133f;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+.radu-review {
+  max-width: 1010px;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.radu-review button {
+  padding: 15px 25px;
+  border: none;
+  background-color: #5e3ed1;
+  color: white;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 16px;
+}
+.radu {
+  max-width: 343px;
+  display: flex;
+  gap: 30px;
+}
+.radu img {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.RaduRuscan h1 {
+  font-size: 32px;
+  color: white;
+}
+.RaduRuscan svg {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.RaduRuscan h5 {
+  font-size: 13px;
+  color: white;
+  font-weight: 300;
+}
+/* HEADER */
+/* HERO */
+.hero {
+  max-width: 808px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+}
+.profile {
+  display: flex;
+  gap: 20px;
+  border-bottom: 1px solid#EFECFA;
+}
+.profile h4 {
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.profile h4:hover {
+  border-bottom: 2px solid #5e3ed1;
+  color: #5e3ed1;
+  cursor: pointer;
+}
+.Anonymous {
+  max-width: 100%;
+  border-radius: 8px;
+  border: 1px solid#6B677A;
+  margin-top: 40px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.Anonymous-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.star-flex {
+  display: flex;
+  gap: 25px;
+}
+.star-flex img {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border: 1px solid#000000;
+  border-radius: 50%;
+}
+.star h4 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+}
+.star svg {
+  margin-top: 5px;
+}
+.Anonymous-flex h3 {
+  font-size: 13px;
+  color: #6b677a;
+  font-weight: 400;
+}
+.Anonymous h5 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 40px;
+  color: #000000;
+}
+.Anonymous p {
+  font-size: 16px;
+  color: #6b677a;
+  line-height: 24px;
+  margin-top: 20px;
+}
+.Anonymous2 {
+  max-width: 100%;
+  border-radius: 8px;
+  border: 1px solid#6B677A;
+  margin-top: 25px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.Anonymous-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.star-flex {
+  display: flex;
+  gap: 25px;
+}
+.star-flex img {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border: 1px solid#000000;
+  border-radius: 50%;
+}
+.star h4 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+}
+.star svg {
+  margin-top: 5px;
+}
+.Anonymous-flex h3 {
+  font-size: 13px;
+  color: #6b677a;
+  font-weight: 400;
+}
+.Anonymous2 h5 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 40px;
+  color: #000000;
+}
+.Anonymous2 p {
+  font-size: 16px;
+  color: #6b677a;
+  line-height: 24px;
+  margin-top: 20px;
+}
+@media (max-width: 800px) {
+  .header {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .header i {
+    display: block;
+    color: white;
+    font-size: 32px;
+  }
+  .link {
+    display: none;
+  }
+  .radu-review {
+    flex-direction: column;
+  }
+  .radu-review button {
+    margin-top: 20px;
+  }
+  .hero {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .Anonymous-flex {
+    flex-direction: column;
+  }
+  .Anonymous-flex h3 {
+    margin-top: 10px;
+  }
+}

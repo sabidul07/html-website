@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Archivo", sans-serif;
+}
+.header {
+  padding-top: 40px;
+  max-width: 100%;
+  background-color: #1c133f;
+}
+.header i {
+  font-size: 32px;
+  color: white;
+  display: none;
+}
+.navbar {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar a {
+  font-size: 32px;
+  color: white;
+  font-weight: 400;
+  text-decoration: none;
+}
+.link {
+  align-items: center;
+  display: flex;
+  gap: 40px;
+}
+.link a {
+  font-size: 16px;
+}
+.link button {
+  padding: 12px 20px;
+  background-color: #1c133f;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+.header h1 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1099px;
+  font-size: 61px;
+  margin-top: 60px;
+}
+.header h1 {
+  color: #efecfa;
+  font-weight: 700;
+  line-height: 72px;
+}
+.header span {
+  color: #ef7741;
+}
+.form-btn {
+  padding-bottom: 40px;
+  margin-top: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.form-btn input {
+  padding: 20px;
+  padding-left: 130px;
+  padding-right: 130px;
+  border: none;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.form-btn button {
+  padding: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border: none;
+  background-color: #5e3ed1;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  color: white;
+}
+.section {
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+.section h2 {
+  font-size: 39px;
+  font-weight: 700;
+}
+.Alltrades {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.article {
+  width: 100%;
+  max-width: 180px;
+  height: 169px;
+  background-color: #efecfa;
+  border-radius: 8px;
+  padding: 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+svg {
+  max-width: 48px;
+  height: 48px;
+}
+.Alltrades h2 {
+  font-size: 16px;
+  margin-top: 20px;
+  max-width: 136px;
+  font-weight: 400;
+}
+.image {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  gap: 130px;
+  background-color: #efecfa;
+}
+.rating {
+  max-width: 448px;
+}
+.rating p {
+  color: #6b677a;
+  font-size: 16px;
+  line-height: 24px;
+}
+.tradespeople {
+  margin-top: 20px;
+}
+.img img {
+  max-width: 595px;
+  object-fit: cover;
+  height: 323px;
+  width: 100%;
+}
+.link-btn {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  max-width: 100%;
+  background-color: #1c133f;
+}
+.post-job {
+  max-width: 1011px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.post-job {
+  max-width: 1011px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.post-job p {
+  font-size: 32px;
+  color: white;
+  font-weight: 700;
+}
+.post-job button {
+  padding: 15px 20px;
+  background-color: #5e3ed1;
+  border: none;
+  color: white;
+  border-radius: 4px;
+}
+@media (max-width: 570px) {
+  .header {
+    padding-left: 12px;
+    padding-right: 12px;
+    max-width: 100%;
+  }
+  .post-job {
+    flex-direction: column;
+  }
+  .header i {
+    display: block;
+  }
+  .link {
+    display: none;
+  }
+  .header h1 {
+    font-size: 39px;
+    max-width: 381px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .form-btn {
+    flex-direction: column;
+  }
+  .form-btn input {
+    width: 300px;
+    height: 50px;
+    border-radius: 4px;
+    padding: 0%;
+  }
+  .form-btn button {
+    width: 300px;
+    border-radius: 4px;
+    padding: 0%;
+    height: 50px;
+    margin-top: 10px;
+  }
+
+  .section h2 {
+    text-align: center;
+  }
+  .Alltrades {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+  }
+
+  .article {
+    width: 100%;
+    max-width: 85%;
+    margin: 0;
+  }
+
+  .rating {
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: center;
+  }
+  .image {
+    flex-direction: column;
+    display: block;
+  }
+  .img {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .img img {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    margin-top: 20px;
+  }
+  .post-job p {
+    text-align: center;
+  }
+  .post-job button {
+    margin-top: 20px;
+  }
+}

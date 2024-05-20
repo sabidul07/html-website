@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Archivo", sans-serif;
+}
+.header {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  max-width: 100%;
+  background-color: #1c133f;
+}
+.header i {
+  font-size: 32px;
+  color: white;
+  display: none;
+}
+.navbar {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar a {
+  font-size: 32px;
+  color: white;
+  font-weight: 400;
+  text-decoration: none;
+}
+.link {
+  align-items: center;
+  display: flex;
+  gap: 40px;
+}
+.link a {
+  font-size: 16px;
+}
+.link button {
+  padding: 12px 20px;
+  background-color: #1c133f;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+.header h1 {
+  font-size: 61px;
+  color: #efecfa;
+  text-align: center;
+  margin-top: 40px;
+}
+/* HEADER */
+/* <!-- GRID --> */
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1224px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  margin-top: 80px;
+}
+.grid {
+  background-color: #efecfa;
+  height: 78px;
+  border-left: 4px solid #af9fe8;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+.grid h3 {
+  font-weight: 400;
+  font-size: 20px;
+}
+.grid:hover {
+  color: #5e3ed1;
+  border-left: 4px solid #5e3ed1;
+}
+/* <!-- GRID --> */
+.link-btn {
+  margin-top: 100px;
+
+  padding-top: 40px;
+  padding-bottom: 40px;
+  max-width: 100%;
+  background-color: #1c133f;
+}
+.post-job {
+  max-width: 1011px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.post-job {
+  max-width: 1011px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.post-job p {
+  font-size: 32px;
+  color: white;
+  font-weight: 700;
+}
+.post-job button {
+  padding: 15px 20px;
+  background-color: #5e3ed1;
+  border: none;
+  color: white;
+  border-radius: 4px;
+}
+@media (max-width: 570px) {
+  .header {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .link {
+    display: none;
+  }
+  .header i {
+    display: block;
+  }
+  .header h1 {
+    font-size: 39px;
+  }
+  .post-job {
+    flex-direction: column;
+  }
+  .post-job p {
+    text-align: center;
+  }
+  .post-job button {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Archivo", sans-serif;
+}
+.header {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  max-width: 100%;
+  background-color: #1c133f;
+}
+.navbar {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar a {
+  font-size: 32px;
+  text-decoration: none;
+  color: #fff;
+}
+.navbar i {
+  display: none;
+}
+.link {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.link a {
+  font-size: 16px;
+}
+.link button {
+  padding: 12px 20px;
+  background-color: #1c133f;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+.header h1 {
+  color: #efecfa;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 61px;
+  font-weight: 700;
+  line-height: 72px;
+}
+/* HEADER */
+.condition {
+  max-width: 1120px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+.term {
+  max-width: 392px;
+  background-color: #efecfa;
+  padding: 20px;
+  height: 1085px;
+}
+.Introduction {
+  width: 292px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+.Introduction h3 {
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #1c133f;
+  line-height: 24px;
+}
+.term h2 {
+  font-size: 20px;
+  font-weight: 400;
+  font-weight: 400;
+  color: #090615;
+  margin-top: 20px;
+}
+.and-conduition {
+  max-width: 778px;
+}
+.and-conduition h3 {
+  margin-top: 25px;
+  color: #090615;
+  font-weight: 700;
+  max-width: 580px;
+  line-height: 32px;
+}
+.and-conduition h5 {
+  font-size: 25px;
+  margin-top: 25px;
+  color: #090615;
+  font-weight: 700;
+  max-width: 580px;
+  line-height: 32px;
+}
+.and-conduition p {
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 700px;
+  margin-top: 15px;
+  color: #6b677a;
+  font-weight: 400;
+}
+.and-conduition h4 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-top: 12px;
+}
+.Subject-Matter {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Identification {
+  padding-bottom: 15px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #6b677a;
+  border-bottom: 1px solid #6b677a;
+}
+.Identification p {
+  width: 230px;
+}
+.Identifications {
+  max-width: 100%;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #6b677a;
+}
+.Identifications p {
+  width: 230px;
+}
+.posting {
+  padding-bottom: 15px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #6b677a;
+}
+.posting p {
+  width: 230px;
+}
+.postings {
+  padding-bottom: 15px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #6b677a;
+}
+.postings p {
+  width: 230px;
+}
+.experience {
+  padding-bottom: 15px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #6b677a;
+}
+.experience p {
+  width: 230px;
+}
+h6 {
+  font-size: 25px;
+  margin-top: 80px;
+  font-weight: 700;
+}
+/* BTN */
+.link-btn {
+  margin-top: 100px;
+
+  padding-top: 40px;
+  padding-bottom: 40px;
+  max-width: 100%;
+  background-color: #1c133f;
+}
+.post-job {
+  max-width: 1011px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.post-job {
+  max-width: 1011px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.post-job p {
+  font-size: 32px;
+  color: white;
+  font-weight: 700;
+}
+.post-job button {
+  padding: 15px 20px;
+  background-color: #5e3ed1;
+  border: none;
+  color: white;
+  border-radius: 4px;
+}
+/* BTN */
+
+@media (max-width: 570px) {
+  .header {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .navbar i {
+    display: block;
+    font-size: 32px;
+    color: white;
+  }
+  .link {
+    display: none;
+  }
+  .header h1 {
+    font-size: 49px;
+  }
+  .header p {
+    max-width: 334px;
+  }
+  .condition {
+    flex-direction: column;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .term {
+    margin-top: 40px;
+    max-width: 100%;
+  }
+  .and-conduition {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+  .post-job {
+    flex-direction: column;
+    text-align: center;
+  }
+  .post-job button {
+    margin-top: 20px;
+  }
+}

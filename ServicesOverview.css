@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Archivo", sans-serif;
+}
+.header {
+  padding-top: 40px;
+  max-width: 100%;
+  background-color: #1c133f;
+}
+.header i {
+  font-size: 32px;
+  color: white;
+  display: none;
+}
+.navbar {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar a {
+  font-size: 32px;
+  color: white;
+  font-weight: 400;
+  text-decoration: none;
+}
+.link {
+  align-items: center;
+  display: flex;
+  gap: 40px;
+}
+.link a {
+  font-size: 16px;
+}
+.link button {
+  padding: 12px 20px;
+  background-color: #1c133f;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+.header h1 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  font-size: 61px;
+  margin-top: 60px;
+}
+.header h1 {
+  color: #efecfa;
+  font-weight: 700;
+  line-height: 72px;
+}
+.header span {
+  color: #ef7741;
+}
+.form-btn {
+  padding-bottom: 40px;
+  margin-top: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.form-btn input {
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: none;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.form-btn button {
+  padding: 20px;
+  border: none;
+  background-color: #5e3ed1;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  color: white;
+}
+/* HEADER  */
+/* HERO */
+.hero {
+  max-width: 984px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+}
+.hero h2 {
+  font-size: 39px;
+  font-weight: 700;
+  line-height: 42px;
+}
+.container {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.card {
+  max-width: 312px;
+  height: 470px;
+}
+.card img {
+  width: 312px;
+  height: 312px;
+  object-fit: cover;
+}
+.card h3 {
+  font-size: 20px;
+}
+.card p {
+  font-size: 13px;
+  max-width: 290px;
+  line-height: 24px;
+  color: #6b677a;
+  font-weight: 400;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn button {
+  padding: 10px 15px;
+  border: 1px solid #5e3ed1;
+  background-color: white;
+  color: #5e3ed1;
+  border-radius: 4px;
+}
+/* HERO */
+/* <!-- FEEDBACK --> */
+
+.Latest-Reviews {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 80px;
+  max-width: 100%;
+  background-color: #efecfa;
+}
+.feedback {
+  max-width: 1016px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.feedback h3 {
+  font-size: 39px;
+  line-height: 42px;
+  font-weight: 700;
+}
+.feedback p {
+  font-size: 13px;
+  max-width: 701px;
+  margin-top: 10px;
+  color: #6b677a;
+  font-weight: 400;
+  line-height: 24px;
+}
+.feedback h4 {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-top: 15px;
+}
+.group {
+  max-width: 100%;
+  background-color: #ffff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  margin-top: 30px;
+  border-radius: 8px;
+  border: 1px solid #6b677a;
+}
+.image {
+  display: flex;
+  gap: 30px;
+}
+.image img {
+  border: 1px solid #000000;
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.image h5 {
+  font-size: 20px;
+}
+/* <!-- FEEDBACK --> */
+/* BTN */
+.link-btn {
+  margin-top: 100px;
+
+  padding-top: 40px;
+  padding-bottom: 40px;
+  max-width: 100%;
+  background-color: #1c133f;
+}
+.post-job {
+  max-width: 1011px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.post-job {
+  max-width: 1011px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.post-job p {
+  font-size: 32px;
+  color: white;
+  font-weight: 700;
+}
+.post-job button {
+  padding: 15px 20px;
+  background-color: #5e3ed1;
+  border: none;
+  color: white;
+  border-radius: 4px;
+}
+/* BTN */
+@media (max-width: 570px) {
+  .header {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .navbar i {
+    display: block;
+    font-size: 32px;
+    color: white;
+  }
+  .link {
+    display: none;
+  }
+  .header h1 {
+    font-size: 49px;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .hero h2 {
+    text-align: center;
+  }
+  .card {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Latest-Reviews {
+    background-color: white;
+  }
+  .feedback h3 {
+    text-align: center;
+  }
+  .feedback p {
+    text-align: center;
+    max-width: 358px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .feedback h4 {
+    margin-top: 20px;
+  }
+  .feedback {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .post-job {
+    flex-direction: column;
+  }
+  .post-job p {
+    text-align: center;
+  }
+  .post-job button {
+    margin-top: 20px;
+  }
+}

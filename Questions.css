@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Archivo", sans-serif;
+}
+.header {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  max-width: 100%;
+  background-color: #1c133f;
+}
+.navbar {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar a {
+  font-size: 32px;
+  text-decoration: none;
+  color: #fff;
+}
+.navbar i {
+  display: none;
+}
+.link {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.link a {
+  font-size: 16px;
+}
+.link button {
+  padding: 12px 20px;
+  background-color: #1c133f;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+.header h6 {
+  text-align: center;
+  color: #efecfa;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.header span {
+  color: #af9fe8;
+}
+.header h1 {
+  color: #efecfa;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 61px;
+  font-weight: 700;
+  line-height: 72px;
+}
+.header p {
+  text-align: center;
+  max-width: 807px;
+  font-size: 20px;
+  color: #efecfa;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 15px;
+}
+/* HEADER  */
+.Questions-section {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+}
+.Questions-section h2 {
+  font-size: 39px;
+}
+.item {
+  margin-top: 40px;
+  max-width: 100%;
+  border: 1px solid#6B677A;
+}
+.item h3 {
+  margin-left: 12px;
+  margin-top: 10px;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 32px;
+}
+.item h4 {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-left: 12px;
+  font-size: 13px;
+  color: #6b677a;
+  font-weight: 400;
+}
+.item p {
+  margin-left: 12px;
+  font-size: 16px;
+  max-width: 750px;
+  line-height: 24px;
+}
+.Answers {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  background-color: #efecfa;
+  height: 40px;
+  margin-top: 15px;
+}
+.Answers h2 {
+  font-size: 16px;
+  font-weight: 400;
+}
+/* BTN */
+
+.link-btn {
+  margin-top: 100px;
+
+  padding-top: 40px;
+  padding-bottom: 40px;
+  max-width: 100%;
+  background-color: #1c133f;
+}
+.post-job {
+  max-width: 1011px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.post-job {
+  max-width: 1011px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.post-job p {
+  font-size: 32px;
+  color: white;
+  font-weight: 700;
+}
+.post-job button {
+  padding: 15px 20px;
+  background-color: #5e3ed1;
+  border: none;
+  color: white;
+  border-radius: 4px;
+}
+/* BTN */
+
+@media (max-width: 570px) {
+  .link {
+    display: none;
+  }
+  .header {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 20px;
+  }
+  .header i {
+    display: block;
+    font-size: 32px;
+    color: white;
+    font-weight: 700;
+  }
+  .header h6 {
+    margin-top: 80px;
+  }
+  .header h1 {
+    font-size: 39px;
+    line-height: 58px;
+  }
+  .Questions-section {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .Questions-section h2 {
+    text-align: center;
+  }
+  .post-job {
+    text-align: center;
+    flex-direction: column;
+  }
+  .post-job button {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 1024px) {
+  .link {
+    display: none;
+  }
+  .header {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 20px;
+  }
+  .header i {
+    display: block;
+    font-size: 32px;
+    color: white;
+    font-weight: 700;
+  }
+  .header h6 {
+    margin-top: 80px;
+  }
+  .header h1 {
+    font-size: 39px;
+    line-height: 58px;
+  }
+
+  .Questions-section {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .Questions-section h2 {
+    text-align: center;
+  }
+  .post-job {
+    text-align: center;
+    flex-direction: column;
+  }
+  .post-job button {
+    margin-top: 20px;
+  }
+}
